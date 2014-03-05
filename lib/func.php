@@ -308,13 +308,13 @@ function decode($key)
 }
 
 // Inversion of bin2hex()
-function hex2bin($hex_string)
+/*function hex2bin($hex_string)
 {
 	// preg_match : Avoid warning : pack(): Type H: illegal hex digit ...
 	// (string)   : Always treat as string (not int etc). See BugTrack2/31
 	return preg_match('/^[0-9a-f]+$/i', $hex_string) ?
 		pack('H*', (string)$hex_string) : $hex_string;
-}
+}*/
 
 // Remove [[ ]] (brackets)
 function strip_bracket($str)
