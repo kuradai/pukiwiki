@@ -68,6 +68,8 @@ if ($trackback || $referer) {
 	require(LIB_DIR . 'trackback.php'); // TrackBack
 }
 
+require(PLUGIN_DIR . 'secedit.inc.php');
+
 /////////////////////////////////////////////////
 // Main
 

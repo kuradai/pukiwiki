@@ -255,6 +255,13 @@ class Heading extends Element
 		return FALSE;
 	}
 
+	function wrap($string, $tag, $param = '', $canomit = TRUE)
+	{
+		$secedit = plugin_secedit_wrap($string, $tag, $param, $this->id);
+		return $secedit ? $secedit : parent::wrap($string, $tag, $param, $canomit);
+	}
+
+
 	function toString()
 	{
 		return $this->msg_top .  $this->wrap(parent::toString(),
