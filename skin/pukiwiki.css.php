@@ -105,13 +105,14 @@ h4 {
 	padding:.3em;
 	margin:0px 0px .5em 0px;
 }
-h5, h6 {
+#menubar h2, h5, h6 {
 	font-family:verdana, arial, helvetica, Sans-Serif;
 	color:inherit;
 	background-color:#DDEEFF;
  	padding:.3em;
  	border:0px;
  	margin:0px 0px .5em 0px;
+ 	font-size: 0.83em;
 }
 
 h1.title {
