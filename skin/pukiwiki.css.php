@@ -227,6 +227,10 @@ div.jumpmenu {
 	text-align:right;
 }
 
+#menubar div.jumpmenu {
+	display: none;
+}
+
 hr.full_hr {
 	border-style:ridge;
 	border-color:#333333;
@@ -368,7 +372,7 @@ div#menubar {
 }
 
 div#menubar ul {
-	margin:0px 0px 0px .5em;
+	margin:0px 0px 10px .5em;
 	padding:0px 0px 0px .5em;
 }
 
