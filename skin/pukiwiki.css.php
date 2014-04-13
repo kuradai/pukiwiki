@@ -109,10 +109,10 @@ h4 {
 	font-family:verdana, arial, helvetica, Sans-Serif;
 	color:inherit;
 	background-color:#DDEEFF;
- 	padding:.3em;
+ 	padding:.5em;
  	border:0px;
  	margin:0px 0px .5em 0px;
- 	font-size: 0.83em;
+ 	font-size: 1em;
 }
 
 h1.title {
@@ -372,11 +372,11 @@ div#menubar {
 }
 
 div#menubar ul {
-	margin:0px 0px 10px .5em;
+	margin:0px 0px 10px 0;
 	padding:0px 0px 0px .5em;
 }
 
-div#menubar ul li { line-height:110%; }
+div#menubar ul li { line-height:1.3; }
 
 div#menubar h4 { font-size:110%; }
 
@@ -655,4 +655,9 @@ td.vote_td1 {
 td.vote_td2 {
 	color:inherit;
 	background-color:#EEF5FF;
+}
+
+.iframe{
+	width: 600px;
+	height: 400px;
 }
