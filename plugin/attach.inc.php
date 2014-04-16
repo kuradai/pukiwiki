@@ -14,16 +14,16 @@
 //    This feature is disabled at newer version of PHP.
 //    Set this at php.ini if you want.
 // Max file size for upload on PHP (PHP default: 2MB)
-ini_set('upload_max_filesize', '2M');
+ini_set('upload_max_filesize', '32M');
 
 // Max file size for upload on script of PukiWikiX_FILESIZE
-define('PLUGIN_ATTACH_MAX_FILESIZE', (1024 * 1024)); // default: 1MB
+define('PLUGIN_ATTACH_MAX_FILESIZE', (20480 * 1024)); // default: 1MB
 
 // 管理者だけが添付ファイルをアップロードできるようにする
-define('PLUGIN_ATTACH_UPLOAD_ADMIN_ONLY', TRUE); // FALSE or TRUE
+define('PLUGIN_ATTACH_UPLOAD_ADMIN_ONLY', FALSE); // FALSE or TRUE
 
 // 管理者だけが添付ファイルを削除できるようにする
-define('PLUGIN_ATTACH_DELETE_ADMIN_ONLY', TRUE); // FALSE or TRUE
+define('PLUGIN_ATTACH_DELETE_ADMIN_ONLY', FALSE); // FALSE or TRUE
 
 // 管理者が添付ファイルを削除するときは、バックアップを作らない
 // PLUGIN_ATTACH_DELETE_ADMIN_ONLY=TRUEのとき有効
